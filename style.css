@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    background:gainsboro;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+body{
+    font-family: sans-serif;
+}
+svg{
+    cursor: pointer;
+}
+h1{
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 500px){
+
+    h1{
+        font-size: 40px;
+    }
+
+}
+
+
+@media only screen and (max-width: 350px){
+
+    h1{
+        font-size: 30px;
+    }
+
+}
